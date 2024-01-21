@@ -1,6 +1,7 @@
 import cardBg from "../images/cake1.png";
 import cakeData from "../data/cakeList.json";
 import cardbg2 from "../images/Vegan_Chocolate_Pie__No-Bake__-_From_My_Bowl-removebg-preview 1.png";
+import chefBg from "../images/chef.png";
 
 const Main = () => {
   console.log(cakeData);
@@ -33,6 +34,29 @@ const Main = () => {
             </div>
             <div style={{ flex: "8" }}>
               <img src={cardBg} alt="" />
+            </div>
+          </div>
+        </section>
+        <section
+          id="about"
+          className=" bg bg-gradient-to-r from-softPink  mx-auto mt-14"
+        >
+          <div className="container mx-auto flex flex-col md:flex-row gap-14">
+            <div style={{ flex: "1" }}>
+              <img src={chefBg} alt="" />
+            </div>
+            <div
+              style={{ flex: "1" }}
+              className="flex flex-col gap-6 pt-5 md:pt-0 justify-center"
+            >
+              <h1 className="text-3xl font-semibold">About Us</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id est
+                commodi unde officiis nesciunt laboriosam repudiandae non,
+                eveniet error cumque consectetur repellat aliquam culpa
+                voluptatibus beatae nemo dicta velit praesentium accusantium
+                molestiae harum labore quibusdam?
+              </p>
             </div>
           </div>
         </section>

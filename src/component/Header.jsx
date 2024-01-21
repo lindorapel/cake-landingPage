@@ -57,7 +57,7 @@ const Header = () => {
                 >
                   Home
                 </Navbar.Link>
-                {/* <Navbar.Link
+                <Navbar.Link
                   className={
                     activeLink === "about"
                       ? "flex items-center py-3 group active text-darkPink h-full font-bold"
@@ -65,8 +65,8 @@ const Header = () => {
                   }
                   href="#about"
                 >
-                  About
-                </Navbar.Link> */}
+                  About Us
+                </Navbar.Link>
                 <Navbar.Link
                   href="#best-seller"
                   className={
