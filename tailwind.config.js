@@ -24,6 +24,9 @@ export default {
       fontFamily: {
         openSans: ["Open Sans"],
       },
+      zIndex: {
+        10000: "10000",
+      },
     },
   },
   plugins: [import("flowbite/plugin")],
