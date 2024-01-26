@@ -1,58 +1,58 @@
 [
     {
         "id" : 1,
-        "name" : "Ice cakes",
-        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20ICE%20CAKE%202%202040X1530PX.jpg",
-        "price" : 50000,
+        "name" : "Kastengel",
+        "image" : "https://asset.kompas.com/crops/YFRTpYQZXPTw9UeVi2uDoGX4W8c=/0x258:800x791/750x500/data/photo/2022/04/17/625bae2b74ac6.jpg",
+        "price" : 30000,
         "bestSeller" : true
     },
     {
         "id" : 2,
-        "name" : "My Cake",
-        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20ICE%20CAKE%206.jpg",
-        "price" : 120000,
+        "name" : "Roti Garlic",
+        "image" : "https://img-global.cpcdn.com/recipes/5d6b2a4112424c2b/680x482cq70/garlic-bread-roti-tawar-foto-resep-utama.jpg",
+        "price" : 130000,
         "bestSeller" : true
     },
     {
         "id" : 3,
-        "name" : "Brownies",
-        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20BR%20FREEZE%20CHEESE%201530X2040%20PX.jpg",
-        "price" : 120000,
+        "name" : "Nastar",
+        "image" : "https://storage.googleapis.com/bakingworld-web-production/uploads/media/content_banner/banner-nastar-1671098577137.jpg",
+        "price" : 100000,
         "bestSeller" : true
     },
     {
         "id" : 4,
-        "name" : "Layer Cake",
-        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20ALC%20CHOCO%20VANILA%201530X2040%20PX.jpg",
-        "price" : 150000,
+        "name" : "Brownies Coklat",
+        "image" : "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/03/08/brownies-2616471378.jpg",
+        "price" : 130000,
         "bestSeller" : true
     },
     {
         "id" : 5,
-        "name" : "Role Cake",
-        "image" : "https://www.itsmycake.net/foto_category/ROLL%20CAKE%20RED%20VELVET%201080px.jpg",
-        "price" : 130000,
+        "name" : "Kue Kering Coklat",
+        "image" : "https://wiratech.co.id/wp-content/uploads/2018/09/resep-kue-kering-coklat-1.jpg",
+        "price" : 150000,
         "bestSeller" : false
     },
     {
         "id" : 6,
-        "name" : "Cheap Cake",
-        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20SPONGE%20CAKE%203%202040X1530PX.jpg",
-        "price" : 30000,
+        "name" : "Brownies",
+        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20BR%20FREEZE%20CHEESE%201530X2040%20PX.jpg",
+        "price" : 120000,
         "bestSeller" : false
     },
     {
         "id" : 7,
-        "name" : "Birthday Cake",
-        "image" : "https://storage.googleapis.com/finansialku_media/wordpress_media/2019/01/Kue-Ulang-Tahun-Termahal-Di-Dunia-01-Finansialku.jpg",
-        "price" : 130000,
+        "name" : "Ice cakes",
+        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20ICE%20CAKE%202%202040X1530PX.jpg",
+        "price" : 50000,
         "bestSeller" : false
     },
     {
         "id" : 8,
-        "name" : "Birthday Cake",
-        "image" : "https://barisandepan.com/wp-content/uploads/2022/10/stephen-wheeler-LRIQuZyxKRM-unsplash.jpg",
-        "price" : 100000,
+        "name" : "My Cake",
+        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20ICE%20CAKE%206.jpg",
+        "price" : 120000,
         "bestSeller" : false
     }
 ]

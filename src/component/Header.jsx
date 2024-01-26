@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar } from "flowbite-react";
+import logo from "../images/logo.png";
+
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("about");
@@ -36,12 +38,12 @@ const Header = () => {
           <div className="container w-full mx-auto">
             <Navbar fluid rounded>
               <Navbar.Brand
-                href="https://flowbite-react.com"
                 className=" h-full"
               >
                 <img
-                  src="/favicon.svg"
+                  src={logo}
                   className="flex items-center h-full mr-3"
+                  style={{ maxWidth: "150px", maxHeight: "50px" }}
                   alt="Flowbite React Logo"
                 />
               </Navbar.Brand>
@@ -55,7 +57,17 @@ const Header = () => {
                   }
                   href="#home"
                 >
-                  Home
+                  Beranda
+                </Navbar.Link>
+                <Navbar.Link
+                  href="#our-menu"
+                  className={
+                    activeLink === "our-menu"
+                      ? "flex items-center py-3 group active text-darkPink h-full font-bold"
+                      : "flex items-center py-3 hover:text-slate-200 group h-full"
+                  }
+                >
+                  Menu
                 </Navbar.Link>
                 <Navbar.Link
                   className={
@@ -65,7 +77,7 @@ const Header = () => {
                   }
                   href="#about"
                 >
-                  About Us
+                  Tentang Kami
                 </Navbar.Link>
                 <Navbar.Link
                   href="#best-seller"
@@ -77,22 +89,14 @@ const Header = () => {
                 >
                   Best Seller
                 </Navbar.Link>
-                <Navbar.Link
-                  href="#our-menu"
-                  className={
-                    activeLink === "our-menu"
-                      ? "flex items-center py-3 group active text-darkPink h-full font-bold"
-                      : "flex items-center py-3 hover:text-slate-200 group h-full"
-                  }
-                >
-                  Our Menu
-                </Navbar.Link>
-                <a
-                  href="#"
+               {/*  <a
+                   href="https://wa.me/6289603941891"
+                   target="_blank"
+                   rel="noopener noreferrer"
                   className="bg-darkPink text-white py-2 px-4 rounded-full h-full"
                 >
-                  Contact Us
-                </a>
+                  Kontak Kami
+                </a> */}
               </Navbar.Collapse>
             </Navbar>
           </div>

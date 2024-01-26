@@ -1,7 +1,9 @@
 import cardBg from "../images/cake1.png";
+import browniesBg from "../images/brownies.png";
 import cakeData from "../data/cakeList.json";
 import cardbg2 from "../images/Vegan_Chocolate_Pie__No-Bake__-_From_My_Bowl-removebg-preview 1.png";
 import chefBg from "../images/chef.png";
+import toko from "../images/toko.jpeg";
 
 const Main = () => {
   console.log(cakeData);
@@ -33,8 +35,12 @@ const Main = () => {
               </a>
             </div>
             <div style={{ flex: "8" }}>
-              <img src={cardBg} alt="" />
+              <img src={browniesBg} alt="" />
             </div>
+
+            {/* <div style={{ flex: "8" }}>
+              <img src={cardBg} alt="" />
+            </div> */}
           </div>
         </section>
         <section
@@ -43,19 +49,15 @@ const Main = () => {
         >
           <div className="container mx-auto flex flex-col md:flex-row gap-14">
             <div style={{ flex: "1" }}>
-              <img src={chefBg} alt="" />
+              <img src={toko} alt="" />
             </div>
             <div
               style={{ flex: "1" }}
               className="flex flex-col gap-6 pt-5 md:pt-0 justify-center"
             >
-              <h1 className="text-3xl font-semibold">About Us</h1>
+              <h1 className="text-3xl font-semibold">Tentang Kami</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id est
-                commodi unde officiis nesciunt laboriosam repudiandae non,
-                eveniet error cumque consectetur repellat aliquam culpa
-                voluptatibus beatae nemo dicta velit praesentium accusantium
-                molestiae harum labore quibusdam?
+              Selamat datang di BMI Cake & Bakery! Kami adalah toko kue yang menyajikan berbagai pilihan kue berkualitas tinggi. Dengan dedikasi kami dalam menyajikan lezatnya hidangan kue, kami bangga menjadi bagian dari momen spesial Anda.
               </p>
             </div>
           </div>
@@ -105,18 +107,21 @@ const Main = () => {
                   jawaban terbaik untuk kebutuhan Anda.
                 </p>
                 <a
-                  href=""
+                  href="https://wa.me/6289603941891"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-darkPink rounded-full px-6 py-2 w-max text-white font-semibold"
                 >
                   Order Sekarang Juga
                 </a>
+
               </div>
             </div>
           </div>
         </section>
         <section id="our-menu" className="container mx-auto py-20">
           <h2 className="text-2xl text-center font-bold text-darkPink">
-            Our Menu
+            Menu
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-10 pt-10">
             {cakeData.map((data) => (
@@ -140,6 +145,25 @@ const Main = () => {
             ))}
           </div>
         </section>
+        {/* <section
+          id="about"
+          className=" bg bg-gradient-to-r from-softPink  mx-auto mt-14"
+        >
+          <div className="container mx-auto flex flex-col md:flex-row gap-14">
+            <div style={{ flex: "1" }}>
+              <img src={toko} alt="" />
+            </div>
+            <div
+              style={{ flex: "1" }}
+              className="flex flex-col gap-6 pt-5 md:pt-0 justify-center"
+            >
+              <h1 className="text-3xl font-semibold">Tentang Kami</h1>
+              <p>
+              Selamat datang di BMI Cake & Bakery! Kami adalah toko kue yang menyajikan berbagai pilihan kue berkualitas tinggi. Dengan dedikasi kami dalam menyajikan lezatnya hidangan kue, kami bangga menjadi bagian dari momen spesial Anda.
+              </p>
+            </div>
+          </div>
+        </section> */}
       </div>
     </>
   );
