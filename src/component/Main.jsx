@@ -41,7 +41,7 @@ const Main = (props) => {
                 The Perfect Cake Every Time
               </h1>
               <p>
-                Jelajahi keindahan rasa di dunia kue kami yang kaya akan variasi
+                Jelajahii keindahan rasa di dunia kue kami yang kaya akan variasi
                 dan inovasi, temukan kelezatan tak terlupakan untuk setiap
                 selera hanya di toko online kami!
               </p>
