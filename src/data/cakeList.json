@@ -40,19 +40,5 @@
         "image" : "https://www.itsmycake.net/foto_category/KONTEN%20BR%20FREEZE%20CHEESE%201530X2040%20PX.jpg",
         "price" : 120000,
         "bestSeller" : false
-    },
-    {
-        "id" : 7,
-        "name" : "Ice cakes",
-        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20ICE%20CAKE%202%202040X1530PX.jpg",
-        "price" : 50000,
-        "bestSeller" : false
-    },
-    {
-        "id" : 8,
-        "name" : "My Cake",
-        "image" : "https://www.itsmycake.net/foto_category/KONTEN%20ICE%20CAKE%206.jpg",
-        "price" : 120000,
-        "bestSeller" : false
     }
 ]
