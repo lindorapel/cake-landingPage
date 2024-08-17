@@ -41,7 +41,7 @@ const Main = (props) => {
                 The Perfect Cake Every Time
               </h1>
               <p>
-                Jelajahii keindahan rasa di dunia kue kami yang kaya akan variasi
+                Jelajahi keindahan rasa di dunia kue kami yang kaya akan variasi
                 dan inovasi, temukan kelezatan tak terlupakan untuk setiap
                 selera hanya di toko online kami!
               </p>
@@ -84,19 +84,18 @@ const Main = (props) => {
                 </div>
                 <div>
                   <img
-                    src={chefBg}
+                     src={toko}
                     alt=""
                     className="w-full h-72 object-cover"
                   />
                 </div>
                 <div>
                   <img
-                    src={cardBg}
+                     src={toko}
                     alt=""
                     className="w-full h-72 object-cover"
                   />
                 </div>
-                <div>Item 4</div>
               </Carousel>
             </div>
 
@@ -159,7 +158,7 @@ const Main = (props) => {
                   jawaban terbaik untuk kebutuhan Anda.
                 </p>
                 <a
-                  href="https://wa.me/6289603941891"
+                  href="https://wa.me/6281326473632"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-darkPink rounded-full px-6 py-2 w-max text-white font-semibold"
