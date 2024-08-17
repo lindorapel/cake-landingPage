@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Navbar } from "flowbite-react";
 import logo from "../images/logo.png";
 
-
 const Header = () => {
   const [activeLink, setActiveLink] = useState("about");
 
@@ -34,12 +33,10 @@ const Header = () => {
   return (
     <>
       <div className="w-full">
-        <div className="mx-auto fixed w-full px-0 bg-white border-b-2">
+        <div className="mx-auto fixed w-full px-0 bg-white border-b-2 z-10000">
           <div className="container w-full mx-auto">
             <Navbar fluid rounded>
-              <Navbar.Brand
-                className=" h-full"
-              >
+              <Navbar.Brand className=" h-full">
                 <img
                   src={logo}
                   className="flex items-center h-full mr-3"
@@ -89,7 +86,7 @@ const Header = () => {
                 >
                   Best Seller
                 </Navbar.Link>
-               {/*  <a
+                {/*  <a
                    href="https://wa.me/6289603941891"
                    target="_blank"
                    rel="noopener noreferrer"
